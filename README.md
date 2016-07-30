@@ -1,56 +1,48 @@
-Android Volley  
+## DEPRECATED
+
+### Please note, this project is deprecated and no longer being maintained, please use official version from jCenter.
+
+``` groovy
+compile 'com.android.volley:volley:1.0.0'
+```
+
 ----------
-This is an unofficial mirror for [android volley library](https://android.googlesource.com/platform/frameworks/volley), the source code will synchronize periodically with the official volley repository.
 
-## Introduction
+# Intro  
 
-Volley is already published to Maven Central.
+This is an unofficial mirror (with some minor bugfix) for [volley](https://android.googlesource.com/platform/frameworks/volley).
 
-#### latest version
+* [![Maven Central](http://img.shields.io/badge/2015.09.08-com.mcxiaoke.volley:library:1.0.19-brightgreen.svg)](http://search.maven.org/#artifactdetails%7Ccom.mcxiaoke.volley%7Clibrary%7C1.0.19%7Cjar)
 
-* [![Maven Central](http://img.shields.io/badge/2014.12.30-com.mcxiaoke.volley:library:1.0.10-brightgreen.svg)](http://search.maven.org/#artifactdetails%7Ccom.mcxiaoke.volley%7Clibrary%7C1.0.10%7Cjar) 
+## Gradle
 
-
-## Usage
-
-#### for Maven
-
-format: jar
-
-```
-<dependency>
-    <groupId>com.mcxiaoke.volley</groupId>
-    <artifactId>library</artifactId>
-    <version>{latest-version}</version>
-</dependency>
+``` groovy
+compile 'com.mcxiaoke.volley:library:1.0.19'
 ```
 
+## Contacts
 
-#### for Gradle
+* Blog: <http://blog.mcxiaoke.com>
+* Github: <https://github.com/mcxiaoke>
+* Email: [github@mcxiaoke.com](mailto:github@mcxiaoke.com)
 
-format: jar
+## Projects
 
-```
-compile 'com.mcxiaoke.volley:library:1.0.+'
-```
-
-
-format: aar
-
-```
-compile 'com.mcxiaoke.volley:library:1.0.+@aar'
-```
-
-
-## Attention  
-
-This project is just a mirror of volley, if you have found any bugs or need some features, please create an issue at [AOSP Issue Tracker](https://code.google.com/p/android/issues/list).
-
+* Awesome-Kotlin:<https://github.com/mcxiaoke/awesome-kotlin>
+* Kotlin-Koi:<https://github.com/mcxiaoke/kotlin-koi>
+* Android-Next: <https://github.com/mcxiaoke/Android-Next>
+* Packer-Ng: <https://github.com/mcxiaoke/packer-ng-plugin>
+* Gradle-Packer: <https://github.com/mcxiaoke/gradle-packer-plugin>
+* xBus: <https://github.com/mcxiaoke/xBus>
+* RxJava Docs: <https://github.com/mcxiaoke/RxDocs>
+* MQTT-CN: <https://github.com/mcxiaoke/mqtt>
+* Minicat App: <https://github.com/mcxiaoke/minicat>
+* Fanfou App: <https://github.com/mcxiaoke/fanfouapp-opensource>
 
 ## License
 
 
-    Copyright (C) 2014 Xiaoke Zhang
+    Copyright (C) 2014,2015,2016 Xiaoke Zhang
     Copyright (C) 2011 The Android Open Source Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
